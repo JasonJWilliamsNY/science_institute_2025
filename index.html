@@ -1,170 +1,636 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
-        
-        
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>My Docs</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/fontawesome.min.css" rel="stylesheet">
-        <link href="css/brands.min.css" rel="stylesheet">
-        <link href="css/solid.min.css" rel="stylesheet">
-        <link href="css/v4-font-face.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
-        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
-        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-        <script>hljs.highlightAll();</script> 
-    </head>
-
-    <body class="homepage">
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href=".">My Docs</a>
-
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-
-                    <ul class="nav navbar-nav ms-md-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
-            <span class="fa fa-angle-down"></span>
-        </button>
-    </div>
-
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>YUHSG Science Institute Homepage</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
-        <ul class="nav flex-column">
-            
-            <li class="nav-item" data-bs-level="1"><a href="#welcome-to-mkdocs" class="nav-link">Welcome to MkDocs</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#commands" class="nav-link">Commands</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#project-layout" class="nav-link">Project layout</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-        </ul>
-    </div>
-</div></div>
-                    <div class="col-md-9" role="main">
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Science Research and Methodology";
+        var mkdocs_page_input_path = "index.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
-            </div>
-        </div>
+<body class="wy-body-for-nav" role="document">
 
-        <footer class="col-md-12">
-            <hr>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script>
-            var base_url = ".",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
-        </script>
-        <script src="js/base.js"></script>
-        <script src="search/main.js"></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>From here you can search these documents. Enter your search terms below.</p>
-                <form>
-                    <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="help shortcut"><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td class="next shortcut"><kbd>n</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td class="prev shortcut"><kbd>p</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td class="search shortcut"><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="." class="icon icon-home"> YUHSG Science Institute Homepage
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
 </div>
+      </div>
 
-    </body>
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Science Research and Methodology</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#course-description-grading-and-requirements">Course description, grading, and requirements</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#class-schedule">Class Schedule</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#symbols-and-notation">Symbols and Notation</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#september">September</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#october">October</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#november">November</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#december">December</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#january">January</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#february">February</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#march">March</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#april">April</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#may">May</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Writing Corner</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="Writing_Corner/01_Writing_Corner/">Writing Corner</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="Writing_Corner/02_Lab_writeups/">Doing a lab writeup</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Lab protocols</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="lab_protocols/00_Introduction_to_protocols/">How to use protocols in this course</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="lab_protocols/GMO_lab/">04 Extraction of DNA from foods</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="lab_protocols/Mitocondrial_sequencing_at_home/">03 Mitocondrial DNA Sequencing - DNA Extraction (at home)</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="lab_protocols/bacterial_transformation/">02 Bacterial Transformation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="lab_protocols/dna_barcoding_lab/">05 Rapid Isolation DNA Barcoding Lab</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="lab_protocols/pipetting_demo/">01 Micropipette Measurement and Error Lab</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Notes</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="notes/01_Lab_safety/">01 Safety in the LAB</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="notes/02_DNA_basics/">02 DNA Basics</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="notes/03_Measurement/">03 Introduction to Measurements</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="notes/04_Science_Method/">04 Discussion: The Scientific Method</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="notes/05_Lab_Math/">05 Lab math</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="notes/06_Mitocondrial_DNA/">06 Mitochondrial DNA Sequencing</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="notes/07_PCR_Basics/">07 PCR Basics</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="notes/08_Electrophoresis_and_Sequencing_Basics/">08 Electrophoresis and Sequencing Basics</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="notes/09_GMO_foods/">09 Detecting Genetically Modified Foods</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="notes/10_DNA_Barcoding/">10 DNA Barcoding</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="notes/11_Bacterial_transformation/">11 Bacterial Transformation and experimental controls</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Review sheets</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="review_sheets/Quiz_III_ptc-pcr/">Quiz III ptc pcr</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="review_sheets/Quiz_II_bacterial-transformation/">Quiz II bacterial transformation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="review_sheets/Quiz_IV_MtDNA_electrophoresis_and_PCR/">Quiz IV MtDNA electrophoresis and PCR</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="review_sheets/Quiz_I_lab_Safety_and_DNA_intro/">Quiz I lab Safety and DNA intro</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="review_sheets/Quiz_VI_GMO_foods/">Quiz VI GMO foods</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="review_sheets/Quiz_V_Mid-year-review/">Quiz V Mid year review</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Science methodology concepts</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="science_methodology_concepts/00_Introduction_to_the_concepts/">Introduction to these concepts</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="science_methodology_concepts/01_Method/">Method</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="science_methodology_concepts/02_Ethics/">Ethics</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href=".">YUHSG Science Institute Homepage</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Science Research and Methodology</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="science-research-and-methodology">Science Research and Methodology</h1>
+<p><strong>Yeshiva University High School for Girls</strong>
+<strong>Fall 2024 - Spring 2025</strong></p>
+<p>Instructor: Jason Williams
+<br> Fall: Mondays 5:40-7:00pm and Tuesdays 5:40-6:30pm
+<br> Spring: Mondays 5:40-7:00pm</p>
+<hr />
+<h2 id="course-description-grading-and-requirements">Course description, grading, and requirements</h2>
+<p><strong>Objectives:</strong>
+This course is designed with the intention of producing thinkers first and
+scientists second. The fall portion of the course will give a broad introduction
+of the skills in modern molecular biology. You will cover basic
+experiments and techniques in molecular biology. As your knowledge increases,
+your methodological insights will be put into scientific context.</p>
+<p><strong>Skills:</strong> Students should hope to understand the following subject areas:</p>
+<ul>
+<li>Understanding of the “scientific” method</li>
+<li>Ability to independently design and critique experiments</li>
+<li>Ability to do independent research</li>
+<li>Awareness of current advances, and issues in science</li>
+<li>How to find scientific mentors and get started on summer research projects</li>
+<li>The basic techniques of the modern biological laboratory.</li>
+</ul>
+<p><strong>Class Materials:</strong> Students are expected to come prepared to each class with</p>
+<ul>
+<li>Notebook or loose-leaf binder for in-class notes (electronic notes are permitted)</li>
+<li>A laboratory notebook (marble notebook)</li>
+<li>Chromebook/laptop when a computer-based assignment will be covered</li>
+</ul>
+<p><strong>Google Drive:</strong> Many assignments will be issued and/or returned using the
+YUHSG Google Drive. Every student should have access to her own folder shared
+only with the student and instructor.</p>
+<p><strong>Tests/Grades:</strong> We will have quizzes monthly at the start of class. These will
+be posted on the calendar. Semester grade composition:</p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Percentage of Grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quizzes</td>
+<td>40%</td>
+</tr>
+<tr>
+<td>Homework</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Major assignments (1 per semester)</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Engagement and academic ethic</td>
+<td>20%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Extra credit:</strong> Assignments are available upon request and can replace 1 quiz
+grade.</p>
+<p><strong>Email:</strong> As I am part-time staff, I will use electronic mail extensively to
+communicate with students. Students are <strong>expected to check their email at least
+weekly</strong>, and check the website for handouts and assignments. The school
+provides email accounts to all students who need them. Please cc my
+Williams@cshl.edu email address. All emails must be written to or cc my
+Williams@yuhsg.org address.</p>
+<p><strong>Questions/Absences/Class cancellations:</strong> I will call the main office for
+cancellation due to weather or emergency. Please email me for anything else:
+Williams@yuhsg.org (please always cc Williams@cshl.edu).</p>
+<p><strong>Parent Teacher Conferences</strong>
+Since we have a smaller group of students, I will be available in-person on one
+night only of the fall parent teacher conferences. For the spring semester,
+or at any time, I can setup a time to talk with parents via phone or online
+conference to discuss any questions or concerns. I can also arrange to speak
+with parents immediately before or after class sessions.</p>
+<hr />
+<h2 id="class-schedule"><strong>Class Schedule</strong></h2>
+<h4 id="symbols-and-notation">Symbols and Notation</h4>
+<ul>
+<li><strong>NC</strong> = No class</li>
+<li><strong>V</strong> = Virtual class (recording or Zoom)</li>
+<li><strong>Quiz</strong> Fall quizzes are on Tuesdays (Fall) and require you to bring your Chromebook</li>
+</ul>
+<hr />
+<h3 id="september">September</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9,10</td>
+<td><ul><li>First class<li>Lab safety<li>Intro to pipetting</ul></td>
+<td></td>
+<td><ul><li><a href="notes/01_Lab_safety/">Notes: Safety</a><li><a href="_includes/handouts/howtoreadmsds.pdf">How to read an MSDS</a></ul></td>
+</tr>
+<tr>
+<td>16<sup><strong>NC</strong></sup>,17</td>
+<td><ul><li><strong>No class Monday - Back to School Night</strong><li>Molecular biology primer</ul></td>
+<td><ul></ul></td>
+<td><ul><li><a href="_includes/slides/intro-to-dna.pdf">Intro to DNA slides</a></ul></td>
+</tr>
+<tr>
+<td>23-24<sup><strong>V</strong></sup> (No in-person)</td>
+<td><ul><li>Virtual class Bacterial Transformation Introduction</li></td>
+<td><ul><li><a href="review_sheets/Quiz_I_lab_Safety_and_DNA_intro/">Quiz I Review Sheet</a></ul></td>
+<td><ul><li><a href="_includes/handouts/electroporation_paper.pdf">Bacterial transformation paper reading assignment</a><li>(Pg. 1 up to "What is electroporation")<li><a href="https://youtu.be/9Wnd7PchbCw?si=6q5jb0HeGJlf4JAf">Bacterial Transformation Video</a></ul></td>
+</tr>
+<tr>
+<td>30, Oct 01</td>
+<td><ul><li>Bacterial Transformation Lab I</li></td>
+<td><ul><li>Quiz I</ul></td>
+<td><ul><li><a href="notes/11_Bacterial_transformation/">Notes: Bacterial transformation</a><li><a href="_includes/slides/bacterial-transformation.pdf">BT slides I</a></ul></td>
+</tr>
+</tbody>
+</table>
+<h3 id="october">October</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(See Oct 1 above)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7,8</td>
+<td><ul><li>Bacterial Transformation Lab II</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14 (No class Tuesday)</td>
+<td><ul><li>Lab notebooks and write-ups<ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>21,22<sup><strong>NC</strong></sup></td>
+<td><ul><li>Holiday break</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>28,29</td>
+<td><ul><li>Bacterial DNA extraction</ul></td>
+<td><ul><li><a href="review_sheets/Quiz_II_bacterial-transformation/">Quiz II Review Sheet</a></ul></td>
+<td><ul><li><a href="_includes/slides/bacterial-transformation_II.pdf">BT slides II</a></ul></td>
+</tr>
+</tbody>
+</table>
+<h3 id="november">November</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4,5</td>
+<td><ul><li>PCR and Electrophoresis</ul></td>
+<td><ul><li>Quiz II</ul></td>
+<td><ul><li><a href="notes/07_PCR_Basics/">Notes: PCR</a><li><a href="_includes/slides/PCR_basics.pdf">PCR basics slides</a></ul></td>
+</tr>
+<tr>
+<td>11,12</td>
+<td><ul><li>Genetics and PTC tasting Lab</li></td>
+<td></td>
+<td><ul><li><a href="_includes/slides/Human_polymorphisims_PTC.pdf">PTC slides</a><li><a href="_includes/handouts/ptc.pdf">PTC handout</a><li><a href="_includes/slides/electrophoresis_and_sequencing_basics.pdf">Electrophoresis and sequencing slides</a></ul></td>
+</tr>
+<tr>
+<td>18,19<sup><strong>V</strong></sup> (No in-person)</td>
+<td><ul><li>Lab notebooks and write-ups</li></td>
+<td></td>
+<td><ul><li><a href="_includes/lab_results/PTC_results_nov_2024/1-8_PTC_Nov-2024.jpg">PTC Gel 1-8</a><li><a href="_includes/lab_results/PTC_results_nov_2024/9-13_PTC_Nov-2024.jpg">PTC Gel 9-13</a></ul></td>
+</tr>
+<tr>
+<td>25,26</td>
+<td><ul><li>Human mitochondrial DNA lab</ul></td>
+<td><ul><li><a href="review_sheets/Quiz_III_ptc-pcr/">Quiz III Review Sheet</a></ul></td>
+<td><ul><li><a href="_includes/slides/mitochondrial_DNA_basics.pdf">MT DNA slides</a><li><a href="_includes/handouts/mt-sequencing-protocol.pdf">MT DNA lab protocol</a> <li><a href="_includes/lab_results/MT-DNA_Nov-2024.jpg">Electrophoresis image</a>&lt;&gt;Sequencing results:TBP</ul></td>
+</tr>
+</tbody>
+</table>
+<h3 id="december">December</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2,3</td>
+<td><ul><li>Mitocohdrial lab bioinformatics II</ul></td>
+<td><ul><li>Quiz III</ul> <!--<a href="review_sheets/Quiz_III_ptc-pcr.md">Quiz III Review Sheet</a>--></td>
+<td></td>
+</tr>
+<tr>
+<td>9,10<sup><strong>V</strong></sup> (No in-person)</td>
+<td><ul><li>Lab notebooks and write-ups</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16,17</td>
+<td><ul><li>Lab practical — Restriction analysis</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>23 (No class Tuesday)</td>
+<td><ul><li>Semester review and assignment</ul></td>
+<td><ul><li>Quiz IV - Virtual</ul></td>
+<td></td>
+</tr>
+<tr>
+<td>24 - Jan 20<sup><strong>NC</strong></sup></td>
+<td><ul><li>Winter break</ul></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="january">January</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>27</td>
+<td>PTC Lab</td>
+<td></td>
+<td><ul><li>Class resumes on Spring schedule (Mondays only)</ul></td>
+</tr>
+</tbody>
+</table>
+<h3 id="february">February</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td><ul><li>PTC lab II</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10<sup><strong>V</strong></sup> (No in-person)</td>
+<td><ul><li>Writing review</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17<sup><strong>NC</strong></sup></td>
+<td><ul><li>Holiday break</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>24</td>
+<td><ul><li>PTC lab III</ul></td>
+<td></td>
+<td><ul></ul></td>
+</tr>
+</tbody>
+</table>
+<h3 id="march">March</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td><ul><li>GMO foods</ul></td>
+<td><ul><li>Quiz V</ul></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td>10</td>
+<td><ul><li>GMO food</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17<sup><strong>V</strong></sup> (No in-person)</td>
+<td><ul><li>eDNA lab II</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>24</td>
+<td><ul><li>GMO foods II</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>31</td>
+<td><ul><li>GMO foods III</ul></td>
+<td></td>
+<td><ul><li>GMO food results<ul><a href="_includes/lab_results/gmo-1-6.JPG">1-6</a><ul><a href="_includes/lab_results/gmo-7-11.JPG">7-11</a></ul></td>
+</tr>
+</tbody>
+</table>
+<h3 id="april">April</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td><ul><li>Introduction to DNA barcoding</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14<sup><strong>NC</strong></sup></td>
+<td><ul><li>Holiday break</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>21<sup><strong>NC</strong></sup></td>
+<td><ul><li>Holiday break</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>28</td>
+<td><ul><li>16s barcoding I</ul></td>
+<td><ul><li>Quiz VII</ul></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="may">May</h3>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Assignments</th>
+<th>Notes/Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td><ul><li>barcoding<li><a href="review_sheets/Quiz_VI_GMO_foods/">Quiz VI Review Sheet</a></ul></td>
+<td></td>
+<td><ul></ul></td>
+</tr>
+<tr>
+<td>12<sup><strong>V</strong></sup> (No in-person)</td>
+<td><ul><li>barcoding</ul></td>
+<td><ul><li>Quiz VI (virtual)</li></td>
+<td></td>
+</tr>
+<tr>
+<td>19</td>
+<td><ul><li>DNA Barcoding Ctd</ul></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>27</td>
+<td><ul><li>Lab field trip(?)</li></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="Writing_Corner/01_Writing_Corner/" class="btn btn-neutral float-right" title="Writing Corner">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+      <span><a href="Writing_Corner/01_Writing_Corner/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
 </html>
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2025-08-26 00:09:59.729620+00:00
+Build Date UTC : 2025-08-26 00:18:46.652937+00:00
 -->

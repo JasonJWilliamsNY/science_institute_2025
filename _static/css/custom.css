@@ -1,0 +1,10 @@
+.. list-table:: Comparison
+   :widths: 20 10 10 15 20
+   :header-rows: 1
+   :class: tight-table
+
+   * - Platform
+     . . .
+     .tight-table {
+         white-space: normal !important;
+     }
